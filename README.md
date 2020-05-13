@@ -19,6 +19,7 @@ bash setup-pointless-repo.sh
 
 
 ### vifm
+'''
 tmux display-message -a  
 
 modify imgt imagc
@@ -27,3 +28,4 @@ pane_top=$(tmux display-message -p '#{pane_top}')
 
 X=$(($1 + pane_left))
 Y=$(($2 + pane_top))
+'''
