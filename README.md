@@ -32,3 +32,22 @@ pane_top=$(tmux display-message -p '#{pane_top}')
 X=$(($1 + pane_left))  
 Y=$(($2 + pane_top))  
 ```
+
+
+### vnc  
+prepare  
+-.Andronix  
+-.VNC Viewer  
+
+BASIC connect
+```
+1. install linux(as ubuntu) by Andronix (takes about 20~30 minutes)
+2. run linux script ( as ./start-ubuntu20.sh )
+3. check VNC SERVER 
+   vncserver -list  
+   nvcserver-stop  
+   vncserver-start  
+4. open VNC Viewer
+5. access it as localhost:5091
+   
+```
