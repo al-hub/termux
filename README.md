@@ -48,6 +48,6 @@ BASIC connect
    nvcserver-stop  
    vncserver-start  
 4. open VNC Viewer
-5. access it as localhost:5091
+5. access it as localhost:5901
    
 ```
