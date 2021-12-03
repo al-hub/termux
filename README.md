@@ -18,6 +18,12 @@ curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh  
 
 
+//[403 issue](https://knowledgeinfinteloop.blogspot.com/2021/09/100-fixed-termux-all-errors-403.html)  
+**termux-change-repo**   
+→ select "science repository" and press "ok"  
+→ select "Mirror by Grimle" option and again press "ok"   
+→ apt upgrade  → apt update  
+
 ### vifm  
 ```
 tmux display-message -a  
