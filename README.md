@@ -40,7 +40,7 @@ Y=$(($2 + pane_top))
 ```
 
 
-### vnc  
+### [VNC](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=einsbon&logNo=222302444210)  
 prepare  
 -.Andronix  
 -.VNC Viewer  
