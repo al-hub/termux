@@ -24,6 +24,24 @@ bash setup-pointless-repo.sh
 → select "Mirror by Grimle" option and again press "ok"   
 → apt upgrade  → apt update  
 
+
+### how to copy on tmux screen  
+```
+C-b [  
+spacebar
+...
+enter
+C-b ]
+```
+
+tmux set-option -g mode-keys vi   
+or  
+set-option -g mode-keys vi   
+at ~/.tmux.conf  
+source-file ~/.tmux.conf  
+on
+
+
 ### vifm  
 ```
 tmux display-message -a  
